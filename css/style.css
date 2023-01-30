@@ -641,13 +641,14 @@ footer ul li a:hover {
     padding-bottom: 3rem;
   }
   .heading-primary span {
+    margin: auto;
     color: var(--color-quote);
     /* text-decoration: underline; */
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 2rem;
   }
   .heading-primary--sub {
-    line-height: 1.5rem;
+    line-height: 2rem;
   }
 
   /*========================Categories=========================*/
@@ -700,21 +701,30 @@ footer ul li a:hover {
     text-align: center;
     margin-top: 0;
   } */
+  .header_text-box {
+    margin: auto;
+  }
   .header_text-box a {
     margin-left: 1rem;
     /* text-align: center; */
   }
   .heading-primary span {
+    /* margin: auto; */
     color: var(--color-quote);
     /* text-decoration: underline; */
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 2rem;
     text-align: center;
-    margin-right: auto;
+    background-color: white;
+    border-radius: 10px;
+    /* margin-right: auto; */
+    margin-bottom: 0.5rem;
+  }
+  .heading-primary--main {
+    line-height: 2rem;
   }
   .heading-primary--sub {
-    margin-top: 0.3rem;
-    line-height: 1.2rem;
+    line-height: 2.3rem;
   }
   /*========================Categories==============================*/
   .categories_right {
